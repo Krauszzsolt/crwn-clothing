@@ -1,7 +1,6 @@
 import React from 'react';
 import './menu-item.style.scss';
 import { useNavigate } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
 const MenuItem = ({ title, imageUrl, size, linkUrl }) => {
   let nav = useNavigate();
 
